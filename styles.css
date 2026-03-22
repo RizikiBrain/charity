@@ -42,10 +42,13 @@ header nav a:hover { background: #FF8C42; transform: scale(1.05); }
 }
 .hero h1 {
   position: relative;
-  font-size: 2.2em;
+  font-size: 2.5em;
+  font-weight: bold;
   padding: 20px 30px;
   border-radius: 10px;
   transition: opacity 0.5s ease;
+  color: #2E8B57;
+  background: rgba(255, 255, 255, 0.9);
 }
 
 /* Fade animation for quotes */
