@@ -69,7 +69,7 @@ const paymentMethods = [
   { name: "E-DAHAB PLUS", logo: "images1/somtel.jpeg", phone: "*712*0624015302*$#" },
   { name: "E-JEEB", logo: "images1/somnet.jpeg", phone: "*712*0684015302*$#" },
   { name: "PAYPAL", logo: "images1/paypal.png", phone: "+252XXXXXXXXX" },
-  { name: "MASTERCARD PAYMENT", logo: "images1/mastercard.png", phone: "+252XXXXXXXXX" }
+  { name: "MASTERCARD PAYMENT", logo: "image1/mastercard.png", phone: "+252XXXXXXXXX" }
 ];
 
 const paymentDiv = document.getElementById("payment-methods");
@@ -119,6 +119,14 @@ showPayments();
 const modal = document.getElementById("paymentModal");
 const openBtn = document.getElementById("openPayment");
 const closeBtn = document.querySelector(".modal .close");
+
+// Menu toggle for mobile
+const menuIcon = document.querySelector('.menu-icon');
+const nav = document.querySelector('header nav');
+
+menuIcon.addEventListener('click', () => {
+  nav.classList.toggle('active');
+});
 
 // Show modal when Payment navbar is clicked
 openBtn.addEventListener("click", (e) => {
