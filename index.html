@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charity Foundation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<!-- Payment Modal -->
+<div id="paymentModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Support Our Cause</h2>
+    <div class="payment-methods" id="payment-methods">
+      <!-- Payment options will appear here -->
+    </div>
+  </div>
+</div>
+
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <div class="logo">Charity Foundation</div>
+    <nav>
+  <a href="#">Home</a>
+  <a href="#about">About Us</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#posts">Posts</a>
+  <a href="#" id="openPayment">Payment</a> <!-- modal trigger -->
+</nav>
+  </header>
+
+  <!-- Hero Section with motivational quote -->
+  <section class="hero">
+    <h1 id="quote">“Your small kindness can change a life.”</h1>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery">
+    <h2>Our Community</h2>
+    <div class="gallery-images">
+      <img src="images/community1.jpg" alt="Community 1">
+      <img src="images/community2.jpg" alt="Community 2">
+      <img src="images/community3.jpg" alt="Community 3">
+    </div>
+  </section>
+
+  <!-- Posts Section -->
+  <section id="posts" class="posts">
+    <h2>Motivation & Stories</h2>
+    <div class="cards" id="cards"></div>
+  </section>
+
+  <!-- Payment Section -->
+  <section id="payment" class="payment">
+  <h2>Support Our Cause</h2>
+  <div class="payment-methods" id="payment-methods">
+    <!-- Payment options will appear here -->
+  </div>
+</section>
+
+  <script src="script.js"></script>
+</body>
+</html>
