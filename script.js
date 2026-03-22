@@ -65,11 +65,11 @@ document.querySelectorAll(".card, .gallery-images img").forEach(el => observer.o
 // Payment methods data
 // Payment methods data with phone numbers (replace with real numbers for each service)
 const paymentMethods = [
-  { name: "EVC PLUS", logo: "images/Hormuud.jpeg", phone: "*712*0614015302*$#" },
-  { name: "E-DAHAB PLUS", logo: "images/somtel.jpeg", phone: "*712*0624015302*$#" },
-  { name: "E-JEEB", logo: "images/somnet.jpeg", phone: "*712*0684015302*$#" },
-  { name: "PAYPAL", logo: "images/paypal.png", phone: "+252XXXXXXXXX" },
-  { name: "MASTERCARD PAYMENT", logo: "images/mastercard.png", phone: "+252XXXXXXXXX" }
+  { name: "EVC PLUS", logo: "images1/Hormuud.jpeg", phone: "*712*0614015302*$#" },
+  { name: "E-DAHAB PLUS", logo: "images1/somtel.jpeg", phone: "*712*0624015302*$#" },
+  { name: "E-JEEB", logo: "images1/somnet.jpeg", phone: "*712*0684015302*$#" },
+  { name: "PAYPAL", logo: "images1/paypal.png", phone: "+252XXXXXXXXX" },
+  { name: "MASTERCARD PAYMENT", logo: "images1/mastercard.png", phone: "+252XXXXXXXXX" }
 ];
 
 const paymentDiv = document.getElementById("payment-methods");
